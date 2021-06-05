@@ -1,0 +1,206 @@
+﻿body {
+    background-color:lightgray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a{
+    text-decoration:none;
+    color:#555;
+
+}
+
+a:hover{
+    text-decoration: none;
+    color:grey;
+}
+
+
+#wrapper{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    float:left;
+    width: 100%;
+    height:90px;
+}
+    header .logo {
+        float: left;
+        width: 89px;
+        height: 90px;
+        border-right: 1px solid lightgray;
+        text-align: center;
+        line-height: 45px;
+        background-image: url('images/logo.png');
+        background-size:cover;
+    }
+header nav{
+    float:left;
+    width:609px;
+    height:90px;
+    border-right: 1px solid lightgray;
+    line-height: 90px;
+}
+
+header nav ul{
+    list-style: none;
+
+}
+
+header nav ul li{
+    float: left;
+    margin-left:30px;
+}
+header .arama{
+    float:left;
+    width:260px;
+    height: 90px;
+}
+    header .arama .txtArama {
+        float: left;
+        margin-top: 25px;
+        width: 190px;
+        padding: 10px;
+        height: 15px;
+    }
+    header .arama .btnArama {
+        float: left;
+        margin-top: 25px;
+        width: 49px;
+        height: 35px;
+        border-right: 1px solid lightgray;
+    }
+    
+.banner{
+        float:left;
+        margin-top:90px;
+        width:960px;
+        height:360px;
+        line-height:360px;
+        text-align:center;
+        font-size:56px;
+        background-image: url('images/banner.jpg');
+        background-size:cover;
+
+}
+.sol-taraf {
+    float: left;
+    width: 285px;
+    height: auto;
+    margin-top: 45px;
+}
+    .sol-taraf .hizli-kayit{
+    float:left;
+    width:285px;
+    height:auto;
+}
+    .sol-taraf .hizli-kayit .ust{
+    float:left;
+    width:270px;
+    height:44px;
+    line-height:44px;
+    padding-left:15px;
+    border-bottom: 1px solid #ccc;
+    color:#555;
+    background-color:#fff;
+}
+    .sol-taraf .hizli-kayit .alt {
+        float: left;
+        width: 250px;
+        padding: 17.5px;
+        height: 190px;
+        border-bottom: 1px solid #ccc;
+        color:#555;
+        background-color: #fff;
+    }
+
+        .sol-taraf .hizli-kayit .alt .sifre{
+            margin-top:15px;
+
+        }
+
+        .sol-taraf .hizli-kayit .alt .textbox {
+            width: 228px;
+            padding:10px;
+            height: 18px;
+            border: 1px solid #ccc;
+        }
+        .sol-taraf .hizli-kayit .alt .btnKayit{
+            float:right;
+
+            width:100px;
+            height:40px;
+            line-height:40px;
+            text-align:center;
+            color:#fff;
+            background-color:#0099CC;
+            margin-top:15px;
+        }
+
+    .sol-taraf .duyurular{
+        float:left;
+        width:285px;
+        height:auto;
+        margin-top:45px;
+        
+    }
+    .sol-taraf .duyurular .ust {
+        float: left;
+        width: 270px;
+        height: 44px;
+        line-height: 44px;
+        padding-left: 15px;
+        border-bottom: 1px solid #ccc;
+        color: #555;
+        background-color: #fff;
+    }
+
+    .sol-taraf .duyurular .alt {
+        float: left;
+        width: 250px;
+        padding: 17.5px;
+        height: auto;
+        border-bottom: 1px solid #ccc;
+        color: #555;
+        background-color: #fff;
+    }
+        .sol-taraf .duyurular .alt .duyuru-wrap {
+            float: left;
+            width: 250px;
+            height: auto;
+            margin:10px 0;
+            background-color: #fff;
+        }
+            .sol-taraf .duyurular .alt .duyuru-wrap:hover {
+                background-color: #61c2d1;
+                color: white;
+            }
+
+
+
+
+            .icerik {
+                float: right;
+                width: 625px;
+                height: 500px;
+                margin-top: 45px;
+                background-color: #61c2d1;
+            }
+footer {
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin-top: 45px;
+    background-color: #61c2d1;
+    text-align: center;
+    line-height: 60px;
+}
